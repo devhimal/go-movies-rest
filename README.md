@@ -38,9 +38,11 @@ A simple RESTful API for managing a collection of movies, written in Go (Golang)
    ```
 
 3. **Run the application:**
+
    ```bash
    ./movies-api
    ```
+
    By default, the server will start on port `8000`.
 
 ### API Endpoints
@@ -70,7 +72,6 @@ curl http://localhost:8080/movies
 ## Project Structure
 
 ```
-.
 ├── main.go          # Entry point and HTTP handlers
 └── README.md
 ```
