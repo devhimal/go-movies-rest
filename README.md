@@ -58,9 +58,11 @@ A simple RESTful API for managing a collection of movies, written in Go (Golang)
 #### Example: Add a Movie
 
 ```bash
-curl -X POST http://localhost:8080/movies \
-     -H 'Content-Type: application/json' \
-     -d '{"title":"Inception","director":"Christopher Nolan","year":2010}'
+
+curl -X POST http://localhost:8000/movies \
+  -H 'Content-Type: application/json' \
+  -d '{"id":"212", "title":"testing of the title", "isbn":"2233", "director":{"firstname":"test", "lastname":"lastname"}}'
+
 ```
 
 #### Example: List All Movies
